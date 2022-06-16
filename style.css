@@ -1,0 +1,154 @@
+@font-face {
+    font-family: Montserrat-Bold; /* Гарнитура шрифта */
+    src: url(fonts/Montserrat-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Montserrat-SemiBold; /* Гарнитура шрифта */
+    src: url(fonts/Montserrat-SemiBold.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Montserrat-Regular; /* Гарнитура шрифта */
+    src: url(fonts/Montserrat-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    margin: 0px;
+    color: white;
+}
+
+p {
+    margin: 0px;
+    color: white;
+}
+
+header {
+    margin: 0px;
+}
+
+.Header {
+    width: 100%;
+    margin: 0px;
+/*    height: 90vh;*/
+    background-image: url(img/HeaderBackground.jpg) ;
+}   
+
+.header__container {
+/*    background-color: aqua;*/
+/*    max-width: 150px;*/
+    height: 96vh;
+/*    margin: 0px auto;*/
+    padding: 22px 0px;
+    display: flex;
+/*    flex-wrap: wrap;*/
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+/*    align-content: center;*/
+/*    text-align: center;*/
+/*    align-self: center;*/
+/*    align-content: space-between;*/
+}
+
+.header__NameBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+/*    align-content: space-between;*/
+/*    justify-content: space-between;*/
+}
+
+.header__TeamName {
+    font-family: Montserrat-Bold;
+    font-size: 30px;
+}
+.TeamName__Description {
+    font-family: Montserrat-Regular;
+    font-size: 17px;
+}
+
+.AboutUs {
+/*    width: 100%;*/
+/*    height: 850px;*/
+    padding: 30px 70px;
+/*    margin: 0px -140px;*/
+/*    background-color: aqua;*/
+    display: flex;
+    flex-direction: column;
+align-items: center;
+    
+}
+
+.AboutUs__about {
+    color: black;
+    font-family: Montserrat-Regular;
+    font-size: 24px;
+}
+
+.AboutUs_Text {
+    font-family: Montserrat-Bold;
+    font-size: 30px;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+.AboutUs_Staff {
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+
+
+.Staff_Card {
+    background-color: chocolate;
+    width: 307px;
+    height: 376px;
+    margin: 20px 20px;
+    border-radius: 14px 14px 5px 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25), 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+/*
+.firstCard {
+    margin-left: 0px;
+    margin-right: 15px;
+}
+
+.endCard {
+    margin-right: 0px;
+    margin-left: 15px;
+}
+*/
+
+.Cat_ThePerson {
+    height: 281px;
+/*    background-color: #D46738;*/
+    
+    border-radius: 14px 14px 0px 0px;
+}
+
+.cardPavel {
+    background-color: #D46738;
+}
+.cardDaria {
+    background-color: #B94C8D;}
+.cardGleb {
+    background-color: #C9B33F;}
+.cardHarsh {
+    background-color: #38D493;}
+.cardSlava {
+    background-color: #3B39A7;}
+
+
+.StaffCard_AboutThePerson {
+    height: 95px;
+    background-color: white;
+    
+    border-radius: 0px 0px 5px 5px;
+}
