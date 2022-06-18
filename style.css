@@ -26,6 +26,13 @@ p {
     color: white;
 }
 
+
+a {
+     color: white;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
 header {
     margin: 0px;
 }
@@ -100,6 +107,8 @@ align-items: center;
 .AboutUs_Staff {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
     
 }
 
@@ -151,4 +160,71 @@ align-items: center;
     background-color: white;
     
     border-radius: 0px 0px 5px 5px;
+}
+
+.TeamSkills {
+    height: 1080px;
+    background-color: coral;
+}
+
+.Products {
+    height: 100vh;
+    background-color: #386FA4;
+    display: flex;
+    flex-flow: row;
+}
+.Products__Path{
+    margin: auto auto;
+    font-family: Montserrat-Bold;
+    font-size: 30px;
+}
+
+
+.Products__Screenshot {
+    width: 50vw;
+    height: 100vh;
+    background-color: white; 
+}
+.Screenshot {
+    margin: 50px auto;
+    background: url(img/AppScreenshots/product%20-%20fores.jpg) no-repeat;
+    background-size: contain;
+    height: 875px;
+    width: 440px;
+}
+/*
+.AboutTeam__Screenshot img {
+
+    background-color: aqua;
+}*/
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+    .Products {
+        height: 100vh;
+        display: flex;
+        flex-flow: column;
+    }
+    .Products__Path {
+        margin: auto 50px;
+/*        background-color: firebrick;*/
+        height: 25vh;
+        font-size: 56px;
+    }
+    .Products__Path a {
+        font-size: 104px;
+    }
+    .Products__Screenshot {
+/*        margin: auto 0px ;*/
+        width: 100vw;
+/*        height: 75vh;*/
+        background-color: white;
+/*        height: auto;*/
+    }
+    .Screenshot {
+        margin: 50px 100px;
+/*        align-items: center;*/
+/*        background-color: forestgreen;*/
+        height: 90%;
+        width: 90%;
+    }
 }
