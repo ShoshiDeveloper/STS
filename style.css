@@ -96,6 +96,72 @@ input, textarea{
     font-family: Montserrat-Bold;
     font-size: 30px;
 }
+
+.WhatWeUse {
+    /* width: 100vw; */
+    height: 100vh;
+    background-color: #344552;
+}
+
+.Text h1 {
+    padding: 120px 78px 230px 78px;
+
+    font-family: Montserrat-Bold;
+    font-size: 56px;
+}
+.Text hr {
+    border: none; /* Убираем границу для браузера Firefox */
+    color: #1DD3EC; /* Цвет линии для остальных браузеров */
+    background-color: #1DD3EC; /* Цвет линии для браузера Firefox и Opera */
+    height: 1px;
+}
+.WhatWeUse_Blocks {
+    padding: 50px 160px 160px 75px;
+    display: flex;
+    flex-flow: row;
+    /* justify-content: space-around; */
+}
+
+.Design, .WebDev, .ToolsIDE, .Mobile, .ProgrammingLang {
+    padding: 0px 80px;
+}
+
+.Block {
+    display: flex;
+    flex-flow: row;
+}
+
+.ToolBlock {
+    padding: 15px 25px;
+    margin: 0px 10px;
+    width: fit-content;
+    border: 1px solid #EBC70F;
+    border-radius: 30px;
+    color: white;
+}
+
+/**/
+
+.FG {
+
+}
+
+.AI {}
+.Rjs {}
+HTML {}
+.CSS {}
+.VS {}
+.QTC {}
+.Br {}
+.Fl {}
+.Hv {}
+.JS {}
+.Dr {}
+.CSH {}
+.CP {}
+
+/**/
+
 .TeamName__Description {
     font-family: Montserrat-Regular;
     font-size: 17px;
