@@ -420,14 +420,16 @@ align-items: center;
 .Block {
     display: flex;
     flex-flow: column;
-/*    min-width: 230px;*/
+/*    align-items: flex-start;*/
+/*    justify-content: flex-start;*/
+    min-width: 230px;
 }
 
 .ToolBlock {
     padding: 15px 25px;
     margin: 10px 0px;
 /*    width: fit-content;*/
-    height: auto;
+/*    height: auto;*/
     border: 1px solid #EBC70F;
     border-radius: 30px;
     color: white;
