@@ -151,23 +151,20 @@ input, textarea{
 
 /**/
 
-.FG {
-
-}
-
-.AI {}
-.Rjs {}
-HTML {}
-.CSS {}
-.VS {}
-.QTC {}
-.Br {}
-.Fl {}
-.Hv {}
-.JS {}
-.Dr {}
-.CSH {}
-.CP {}
+.FG {border-color: #E64A19;}
+.AI {border-color: #FF7C01;}
+.Rjs {border-color: #206BE1;}
+.HTML {border-color: #E65100;}
+.CSS {border-color: #0277BD;}
+.VS {border-color: #BE88F6;}
+.QTC {border-color: #41CD52;}
+.Br {border-color: #206BE1;}
+.Fl {border-color: #40C4FF;}
+.Hv {border-color: #5C60E5;}
+.JS {border-color: #EBC70F;}
+.Dr {border-color: #42A5F5;}
+.CSH {border-color: #390091;}
+.CP {border-color: #206BE1;}
 
 /**/
 
@@ -234,7 +231,7 @@ align-items: center;
 }
 
 .cardPavel {
-    background-image: url(img/StaffCats/artiskat.png);
+    background-image: url(img/StaffCats/shoshi.png);
 }
 
 .cardDaria {
@@ -247,7 +244,8 @@ align-items: center;
     background-image: url(img/StaffCats/DrHrs.jpg);
 }
 .cardSlava {
-    background-color: #3B39A7;}
+    background-image: url(img/StaffCats/slava.png);
+}
 
 
 .StaffCard_AboutThePerson {
@@ -376,7 +374,7 @@ align-items: center;
     font-family: Poppins-ExtraLight;
     font-size: 16px;
 }
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 320px) and (max-width : 1440px) {
     
     .WhatWeUse {
         height: auto;
