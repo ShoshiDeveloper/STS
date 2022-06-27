@@ -119,16 +119,25 @@ input, textarea{
     padding: 50px 160px 160px 75px;
     display: flex;
     flex-flow: row;
+    
+    font-family: Montserrat-Regular;
+    font-size: 24px;
     /* justify-content: space-around; */
 }
 
+.WhatWeUse_Blocks p {
+    padding-bottom: 30px;
+}
+
 .Design, .WebDev, .ToolsIDE, .Mobile, .ProgrammingLang {
-    padding: 0px 80px;
+    
+/*    padding: 0px 80px;*/
 }
 
 .Block {
     display: flex;
     flex-flow: row;
+    min-width: 530px;
 }
 
 .ToolBlock {
@@ -225,15 +234,18 @@ align-items: center;
 }
 
 .cardPavel {
-    background-color: #D46738;
+    background-image: url(img/StaffCats/artiskat.png);
 }
 
 .cardDaria {
-    background-color: #B94C8D;}
+    background-image: url(img/StaffCats/artiskat.png);
+}
 .cardGleb {
-    background-color: #C9B33F;}
+    background-image: url(img/StaffCats/Hleb.jpg);
+}
 .cardHarsh {
-    background-color: #38D493;}
+    background-image: url(img/StaffCats/DrHrs.jpg);
+}
 .cardSlava {
     background-color: #3B39A7;}
 
@@ -365,6 +377,64 @@ align-items: center;
     font-size: 16px;
 }
 @media only screen and (min-width : 320px) and (max-width : 480px) {
+    
+    .WhatWeUse {
+        height: auto;
+    }
+    
+    .Text h1 {
+    padding: 120px 78px 230px 78px;
+
+    font-family: Montserrat-Bold;
+    font-size: 56px;
+}
+.Text hr {
+    border: none; /* Убираем границу для браузера Firefox */
+    color: #1DD3EC; /* Цвет линии для остальных браузеров */
+    background-color: #1DD3EC; /* Цвет линии для браузера Firefox и Opera */
+    height: 1px;
+}
+    
+    
+.WhatWeUse_Blocks {
+/*    padding: 50px 160px 160px 75px;*/
+    display: flex;
+    flex-flow: column;
+    
+    font-family: Montserrat-Regular;
+    font-size: 24px;
+    /* justify-content: space-around; */
+}
+/*
+
+.WhatWeUse_Blocks p {
+    padding-bottom: 30px;
+}
+*/
+
+.Design, .WebDev, .ToolsIDE, .Mobile, .ProgrammingLang {
+    
+/*    padding: 0px 80px;*/
+}
+
+.Block {
+    display: flex;
+    flex-flow: column;
+/*    min-width: 230px;*/
+}
+
+.ToolBlock {
+    padding: 15px 25px;
+    margin: 10px 0px;
+/*    width: fit-content;*/
+    height: auto;
+    border: 1px solid #EBC70F;
+    border-radius: 30px;
+    color: white;
+}
+    
+    
+    
     .AboutUs {
         padding: 30px 15px;
     }
