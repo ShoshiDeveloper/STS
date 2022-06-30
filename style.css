@@ -374,7 +374,7 @@ align-items: center;
     font-family: Poppins-ExtraLight;
     font-size: 16px;
 }
-@media only screen and (min-width : 320px) and (max-width : 1440px) {
+@media only screen and (min-width : 320px) and (max-width : 426px) {
     
     .WhatWeUse {
         height: auto;
@@ -395,31 +395,17 @@ align-items: center;
     
     
 .WhatWeUse_Blocks {
-/*    padding: 50px 160px 160px 75px;*/
     display: flex;
     flex-flow: column;
     
     font-family: Montserrat-Regular;
     font-size: 24px;
-    /* justify-content: space-around; */
 }
-/*
 
-.WhatWeUse_Blocks p {
-    padding-bottom: 30px;
-}
-*/
-
-.Design, .WebDev, .ToolsIDE, .Mobile, .ProgrammingLang {
-    
-/*    padding: 0px 80px;*/
-}
 
 .Block {
     display: flex;
     flex-flow: column;
-/*    align-items: flex-start;*/
-/*    justify-content: flex-start;*/
     min-width: 230px;
 }
 
@@ -432,7 +418,6 @@ align-items: center;
     border-radius: 30px;
     color: white;
 }
-    
     
     
     .AboutUs {
@@ -481,5 +466,84 @@ align-items: center;
 /*        background-color: forestgreen;*/
         height: 90%;
         width: 90%;
+    }
+    
+    .InputForm {
+        width: 280px;
+    }
+    
+    .Copyright a {
+        margin: auto 10px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width : 426px) and (max-width : 1440px) {
+    
+    .WhatWeUse {
+        height: auto;
+    }
+    
+    .Text h1 {
+    padding: 120px 78px 230px 78px;
+
+    font-family: Montserrat-Bold;
+    font-size: 56px;
+    }
+    .Text hr {
+        border: none; /* Убираем границу для браузера Firefox */
+        color: #1DD3EC; /* Цвет линии для остальных браузеров */
+        background-color: #1DD3EC; /* Цвет линии для браузера Firefox и Opera */
+        height: 1px;
+    }
+
+
+    .WhatWeUse_Blocks {
+        padding: 10px;
+    padding: auto;
+        display: flex;
+        flex-flow: row;
+/*        justify-content: space-between;*/
+
+        font-family: Montserrat-Regular;
+        font-size: 24px;
+    }
+
+
+    .Block {
+        margin-left: 15px;
+/*        margin: 0px 15px;*/
+        display: flex;
+        flex-flow: column;
+        min-width: 230px;
+    }
+
+    .ToolBlock {
+        padding: 15px 25px;
+        margin: 10px 10px;
+    /*    width: fit-content;*/
+    /*    height: auto;*/
+        border: 1px solid #EBC70F;
+        border-radius: 30px;
+        color: white;
+    }
+    
+    .Screenshot {
+                height: 80%;
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width : 1024px) and (max-width : 1440px) {
+        .Block {
+        margin: 0px 30px;
+    }
+}
+
+@media only screen and (min-width : 1025px) and (max-width : 1440px) {
+    
+        .Block {
+/*        margin: 0px 20px;*/
+            flex-flow: row;
     }
 }
