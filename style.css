@@ -65,7 +65,7 @@ input, textarea{
     margin: 0px;
     height: 100vh;
     background-image: url(img/Bongo-Jams.gif) ;
-    background-size: 100%;
+    background-size: cover;
 }   
 
 .header__container {
