@@ -233,18 +233,14 @@ align-items: center;
 .cardPavel {
     background-image: url(img/StaffCats/shoshi.png);
 }
-
 .cardDaria {
     background-image: url(img/StaffCats/artiskat.png);
 }
+.cardRuslan {
+    background-image: url(img/StaffCats/ruslan.jpg);
+}
 .cardGleb {
     background-image: url(img/StaffCats/Hleb.jpg);
-}
-.cardHarsh {
-    background-image: url(img/StaffCats/DrHrs.jpg);
-}
-.cardSlava {
-    background-image: url(img/StaffCats/slava.png);
 }
 
 
